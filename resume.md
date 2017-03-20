@@ -59,3 +59,7 @@ Designed and built device for controlling power supply to dev boards, still in u
 ### Bachelor of Science, University of New South Wales
 
 Graduated in 2014 with a Bachelor of Science, majoring in Computer Science.
+
+### Student Exchange, University of Toronto
+
+Spent a semester in 2012 on exchange at the University of Toronto.
