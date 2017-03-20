@@ -1,5 +1,56 @@
 <html>
-<body>
-{{ content }}
-</body>
+    <head>
+        <style>
+body {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#name {
+    width: 100%;
+    text-align: center;
+}
+#line1 {
+    width: 100%;
+    text-align: center;
+}
+#line2 {
+    display: flex;
+    justify-content: space-between;
+}
+#content {
+    text-align: justify;
+}
+.work {
+    display: table;
+    width: 100%;
+}
+.work > .name {
+    display: table-cell;
+}
+.work > .period {
+    display: table-cell;
+    text-align: right;
+}
+h2 {
+    padding-bottom: -100px;
+}
+        </style>
+    </head>
+    <body>
+        <h1 id='name'>{{ name }}</h1>
+        <div id='details'>
+            <div id='line1'>
+                <span>{{ address }}</span>
+            </div>
+            <div id='line2'>
+                <span>{{ email }}</span>
+                <span>{{ mobile }}</span>
+                <span>{{ github }}</span>
+            </div>
+        </div>
+        <div id='content'>
+            {{ content }}
+        </div>
+    </body>
 </html>

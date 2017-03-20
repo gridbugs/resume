@@ -1,61 +1,60 @@
-# Profile
+I'm a Software Engineer with 3 years of full time experience.
 
-I recently graduated from the University of New South Wales with a degree in
-Computer Science. 
-I write HTML5 demos as a hobby, and am also interested
-in low-level systems programming.
+----------
 
-------------
-## Skills and Interests
-### Systems Programming
-- Strong knowledge of the C programming language and runtime environment
-- Implemented many features of an operating system from scratch in UNSW's Advanced OS course
-- Experience working with several microprocessors and controllers
-- Undergrad thesis at NICTA focused on the componentization of a virtual machine
-  monitor
-- Wrote a multi threading library for the arduino as a personal project
+## Skills
 
-### Web Development
-- Component using many back-end and front-end web languages and frameworks
-- Worked with a variety of database technologies and familiar with SQL
-- Develop web applications as a hobby including graphical demos, game engines and blogging software
-
-### Application Programming
-- Experience with a large variety of high level programming 
-  and scripting languages
-- Understanding of computer networks and experience with socket programming
-
-
+- Languages in near-daily use: c, rust, python
+- Languages in occasional use: haskell, bash, arm assembly, x86 assembly
+- Languages once familiar: c++, java, javascript, ruby, perl
+- Comfortable at low level of abstraction
+- Much experience reading (and understanding) hardware manuals
+- Strong algorithms and data structure design skills
 
 ----------
 
 ## Work Experience
-- (2014) Software Developer at Shodogg
-  - Android and iPhone application development
-  - Web development
-- (2011,13-14) Tutor for the School of Computer Science and Engineering at UNSW
-  - Taught computing to students from computing and non-computing backgrounds
-- (2013-14) Freelance web development
-- (2011-13) Research Assistant at NICTA
-  - Low-level systems programming
-  - Circuit design and assembly
-- (2008-09) IT Technician at Leading Edge Computers
+### <span class='work'><span class='name'>Research Engineer, Data61 (formerly NICTA)</span><span class='period'>2015 - Present</span></span>
 
+As an engineer in the Trustworthy Systems research group, my job is focussed on
+developing a user-level application environment around the **seL4** microkernel.
 
+- Developed and maintained a framework for building applications with seL4, in a
+  fast-moving research environment
+- Gave two multi-day tutorials on building applications with seL4
+- Collaborated with customers to debug and fix issues with
+  our software
+- Designed and implemented the software for a device that securely mediates access
+  to multiple desktop computers from a single terminal
 
---------
-## Extra Curricular and Volunteer Work
-- (2010-present) UNSW Theatrical Societies
-  - Head of website team for "CSE Revue" - a comedy show run by
-    computing students
-  - President of the CSE Revue student society, and producer of the show in 2013
-  - Part of cast, tech crew, website team, videos team and exec team for several
-    theatrical societies
-- (2011-2014) Volunteer for School of Computer Science and Engineering
-  - Volunteered in CSE's Mentor Program, helping first year computing students
-    adjust to university life
-  - Camp Leader for CSE's First-Year Camp
-- (2013) rUNSWift - UNSW's robotic soccer team
-  - Developed a behaviour framework for UNSW's robotic soccer team
-- (2012) Student Exchange to University of Toronto
+### <span class='work'><span class='name'>Software Engineer, Shodogg</span><span class='period'>2014</span></span>
 
+Developed a mobile app for streaming video and music over a local network.
+
+- Android + iOS app development
+- Frontend web development in HTML5
+
+### <span class='work'><span class='name'>Computer Science Tutor, University of NSW</span><span class='period'>2011 - 2014</span></span>
+
+Tutored two different introductory computing courses, and a security
+engineering course.
+
+### <span class='work'><span class='name'>Research Assistant, NICTA</span><span class='period'>2011 - 2013</span></span>
+
+Designed and built device for controlling power supply to dev boards, still in use today.
+
+---------
+
+## Hobbies
+
+### Game Development
+
+### Indoor Rock Climbing
+
+----------
+
+## Education
+
+### Bachelor of Science, University of New South Wales
+
+Graduated in 2014 with a Bachelor of Science, majoring in Computer Science.

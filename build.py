@@ -3,6 +3,7 @@
 import sys
 import os
 import argparse
+import yaml
 
 import jinja2
 import pdfkit
@@ -15,6 +16,7 @@ def make_parser():
     parser.add_argument('-f', '--format', type=str, choices=['html', 'pdf'],
                         default='pdf')
     parser.add_argument('-o', '--output', type=str, required=True)
+    parser.add_argument('-d', '--details', type=argparse.FileType('r'), required=True)
 
     return parser
 
@@ -28,9 +30,11 @@ def main(argv):
     md = f.read()
     content_html = markdown.markdown(md)
 
+    details = yaml.load(args.details.read())
+
     cwd = os.path.dirname(os.path.realpath(__file__))
     template_env = jinja2.Environment(loader=jinja2.FileSystemLoader(cwd))
-    rendered_html = template_env.get_template('template.html').render(content=content_html)
+    rendered_html = template_env.get_template('template.html').render(content=content_html, **details)
 
     if args.format == 'html':
         with open(args.output, 'w') as outfile:
