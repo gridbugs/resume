@@ -9,7 +9,6 @@ I get great satisfaction from investigating and solving complex technical proble
 - Languages in occasional use: haskell, bash, arm assembly, x86 assembly
 - Languages once familiar: c++, java, javascript, ruby, perl
 - Comfortable at low level of abstraction
-- Much experience reading (and understanding) hardware manuals
 - Strong algorithms and data structure design skills
 
 ----------
