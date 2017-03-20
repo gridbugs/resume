@@ -3,7 +3,6 @@
 import sys
 import os
 import argparse
-import pdb
 
 import jinja2
 import pdfkit
