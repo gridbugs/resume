@@ -1,4 +1,5 @@
 I'm a Software Engineer with 3 years of full time experience.
+I get great satisfaction from investigating and solving complex technical problems.
 
 ----------
 
