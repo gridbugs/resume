@@ -14,7 +14,7 @@ I'm a Software Engineer with 3 years of full time experience.
 ----------
 
 ## Work Experience
-### <span class='work'><span class='name'>Research Engineer, Data61 (formerly NICTA)</span><span class='period'>2015 - Present</span></span>
+### <span class='work'><span class='name'>Research Engineer, Data61 (formerly NICTA)</span> <span class='period'>2015 - Present</span></span>
 
 As an engineer in the Trustworthy Systems research group, my job is focussed on
 developing a user-level application environment around the **seL4** microkernel.
@@ -27,19 +27,19 @@ developing a user-level application environment around the **seL4** microkernel.
 - Designed and implemented the software for a device that securely mediates access
   to multiple desktop computers from a single terminal
 
-### <span class='work'><span class='name'>Software Engineer, Shodogg</span><span class='period'>2014</span></span>
+### <span class='work'><span class='name'>Software Engineer, Shodogg</span> <span class='period'>2014</span></span>
 
 Developed a mobile app for streaming video and music over a local network.
 
 - Android + iOS app development
 - Frontend web development in HTML5
 
-### <span class='work'><span class='name'>Computer Science Tutor, University of NSW</span><span class='period'>2011 - 2014</span></span>
+### <span class='work'><span class='name'>Computer Science Tutor, University of NSW</span> <span class='period'>2011 - 2014</span></span>
 
 Tutored two different introductory computing courses, and a security
 engineering course.
 
-### <span class='work'><span class='name'>Research Assistant, NICTA</span><span class='period'>2011 - 2013</span></span>
+### <span class='work'><span class='name'>Research Assistant, NICTA</span> <span class='period'>2011 - 2013</span></span>
 
 Designed and built device for controlling power supply to dev boards, still in use today.
 
