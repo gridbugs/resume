@@ -5,7 +5,7 @@ I get great satisfaction from investigating and solving complex technical proble
 
 ## Skills
 
-- Familiar with source control, code review, continuous integration
+- Familiar with source control, code review, continuous integration, issue tracking
 - Strong algorithms and data structure design skills
 - Experience working with a team on large software projects
 - Comfortable writing and debugging code at a low level of abstraction
