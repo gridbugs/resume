@@ -9,9 +9,9 @@ I get great satisfaction from investigating and solving complex technical proble
 - Strong algorithms and data structure design skills
 - Experience working with a team on large software projects
 - Comfortable writing and debugging code at a low level of abstraction
-- Languages in near-daily use: c, rust, python
+- Languages in near-daily use: C, rust, python
 - Languages in occasional use: haskell, bash, arm assembly, x86 assembly
-- Languages once familiar: c++, java, javascript, ruby, perl
+- Languages once familiar: C++, java, javascript, ruby, perl
 
 ----------
 
