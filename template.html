@@ -3,23 +3,27 @@
         <style>
 body {
     margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
-#name {
-    width: 100%;
-    text-align: center;
+#details {
+    position: absolute;
+    top: 53px;
+    right: 60px;
 }
-#line1 {
-    width: 100%;
-    text-align: center;
+.key {
+    text-align: left;
 }
-#line2 {
-    display: flex;
-    justify-content: space-between;
+.value {
+    font-weight: bold;
+}
+#profile {
+    width: 500px;
+    text-align: left;
 }
 #content {
-    text-align: justify;
+    padding-top: 30px;
+    text-align: left;
 }
 .work {
     display: table;
@@ -33,25 +37,44 @@ body {
     text-align: right;
 }
 h2 {
-    margin-top: -3px;
-    margin-bottom: -10px;
+    margin-top: -5px;
+    margin-bottom: 8px;
+}
+h3 {
+    margin-top: -5px;
+    margin-bottom: -12px;
+}
+ul {
+    margin-top: -5px;
 }
 hr {
     margin-top: -5px;
+}
+a {
+    color: black;
+    text-decoration: none;
 }
         </style>
     </head>
     <body>
         <h1 id='name'>{{ name }}</h1>
-        <div id='details'>
-            <div id='line1'>
-                <span>{{ address }}</span>
-            </div>
-            <div id='line2'>
-                <span>{{ email }}</span>
-                <span>{{ mobile }}</span>
-                <span>{{ github }}</span>
-            </div>
+        <table id='details'>
+            <tr><td class='key'>email:</td><td class='value'>
+                    <a href='mailto:{{ email }}'>{{ email }}</a>
+            </td></tr>
+            <tr><td class='key'>mobile:</td><td class='value'>{{ mobile }}</td></tr>
+            <tr><td class='key'>website:</td><td class='value'>
+                    <a href='https://{{ website }}'>{{ website }}</a>
+            </td></tr>
+            <tr><td colspan='2'>
+                    <a href='https://github.com/stevebob'>github.com/<span class='value'>{{ github }}</span></a>
+            </td></tr>
+            <tr><td colspan='2'>
+                    <a href='https://www.linkedin.com/in/{{ linkedin }}'>linkedin.com/in/<span class='value'>{{ linkedin }}</span></a>
+            </td></tr>
+        </table>
+        <div id='profile'>
+            {{ profile }}
         </div>
         <div id='content'>
             {{ content }}
