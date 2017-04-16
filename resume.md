@@ -6,8 +6,8 @@
 - Comfortable writing and debugging code at a low level of abstraction
 - Strong algorithms and data structure design skills
 - Languages in near-daily use: C, rust, python
-- Languages in occasional use: haskell, bash, arm assembly, x86 assembly
-- Languages once familiar: C++, java, javascript, ruby, perl
+- Languages in occasional use: haskell, bash, javascript, arm assembly, x86 assembly
+- Languages once familiar: C++, java, ruby, perl
 
 ----------
 
@@ -15,16 +15,19 @@
 ### <span class='work'><span class='name'>Research Engineer, Data61 (formerly NICTA)</span> <span class='period'>2015 - Present</span></span>
 
 As an engineer in the Trustworthy Systems research group, my job is focussed on
-developing a user-level application environment around the **seL4** microkernel.
+developing a user-level application environment around the [**seL4**](http://sel4.systems/) microkernel.
 
 - Worked in a team of ~10 engineers to maintain the seL4 kernel and user-level
-  environment, a codebase of ~100000 lines
-- Used modern software engineering tools: source control (git), code review
+  environment, a codebase of ~100 000 lines
+- Used software engineering tools: source control (git), code review
   (bitbucket), issue tracking (jira), continuous integration (bamboo)
+- Wrote and maintained unit and functional tests, monitored tests with
+  continuous integration, and responded to failing tests by analysing and
+  solving the problem
+- Gave three multi-day tutorials on building applications with seL4
+- Collaborated with customers to debug and fix issues with our software
 - Developed and maintained a framework for building applications with seL4, in a
   fast-moving research environment
-- Gave two multi-day tutorials on building applications with seL4
-- Collaborated with customers to debug and fix issues with our software
 - Designed and implemented the software for a device that securely mediates access
   to multiple desktop computers from a single terminal
 
